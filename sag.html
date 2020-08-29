@@ -16,19 +16,19 @@
       box-shadow: #777;
       
     }
-    div.gallery:hover {
+    .gallery:hover {
       border: 10px solid rgba(255, 255, 255, 0);
       box-shadow: white;
       filter: drop-shadow(15px 15px 15px rgb(255, 255, 255)); 
    
     }
     
-    div.gallery img {
+    .gallery img {
       width: 100%;
       height: auto;
       border-radius: 5px;
     }
-    div.gallery img :hover{
+    .gallery img :hover{
         border-radius: 50%;
     }
 
@@ -54,7 +54,8 @@
       bottom: 0;
       left: 0;
       right: 0;
-     
+      height: 100%;
+      width: 100%;
       opacity: 0;
       transition: .5s ease;
       background-color: #be2c2c1f;
@@ -83,17 +84,13 @@
     <div class="gallery">
           <img src="img/front.jpg" alt="Cinque Terre"  >
         </a>
-        <div class="overlay">
-          <div class="text">My sweet greeny</div>
-        </div>
+        
       </div>
 
       <div class="gallery">
           <img src="img/one.jpg" alt="Cinque Terre" >
         </a>
-        <div class="overlay">
-          <div class="text">The Posing Style</div>
-        </div>
+        
       </div>
 
       <div class="gallery">
