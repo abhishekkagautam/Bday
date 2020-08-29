@@ -49,13 +49,12 @@
         font-family: Brush Script MT;
     }
     .overlay {
-      position: absolute;
-      top: 0;
+      position: relative;
+      top: -100;
       bottom: 0;
       left: 0;
       right: 0;
-      height: 100%;
-      width: 100%;
+      
       opacity: 0;
       transition: .5s ease;
       background-color: #be2c2c1f;
@@ -71,7 +70,7 @@
     }
     </style>
 
-    <div>   
+    <div >   
       <video  width="100%" controls autoplay>
           <source src="img/Bday_temp.mp4" type="video/mp4">
           <source src="img/Bday_temp.mp4" type="video/ogg">
